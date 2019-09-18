@@ -7,8 +7,8 @@
   <body>
     <header>
       <nav>
+        <a href="index.html"><img src="#" alt="Логотфип барбершопа «Бородинский»"></a>
         <ul>
-          <li><a href="index.html"><img src="#" alt="Barbershop"></a></li>
           <li><a href="#">Информация</a></li>
           <li><a href="#">Новости</a></li>
           <li><a href="#">Прайс-лист</a></li>
@@ -29,6 +29,7 @@
       </section>
       <section>
         <h2>Производители</h2>
+        <!-- Здесь будет форма -->
         <ul>
           <li>Baxter of California</li>
           <li>Mr Natty</li>
@@ -51,15 +52,22 @@
         <h2>Товары</h2>
         <ul>
           <li>
+            <!-- Разметка как в демо.
+            Почему изображение и текст не обернуть в одну ссылку? -->
+            <h3>
+              <a href="catalog-item.html">
+                <span>Набор для путешествий</span>
+                <span>«Baxter of California»</span>
+              </a>
+            </h3>
             <a href="#">
-              <img src="#" alt="Изображение товара">
-              <p>Набор для путешествий</p>
-              <p>«Baxter of California»</p>
+              <img src="catalog-item.html" alt="Набор для путешествий «Baxter of California»">
             </a>
-            <div class="">
-              <p>2900 &#8399;</p>
-              <button type="button">Купить</button>
-            </div>
+            <p>
+              <b>2900 ₽</b>
+              <!-- В демо кнопки размечены с помощью ссылки -->
+              <a href="">Купить</a>
+            </p>
           </li>
           <li>
             <a href="#">
@@ -118,6 +126,8 @@
           </li>
         </ul>
         <ul>
+          <!-- Пагинация -->
+          <!-- На ссылках? -->
           <li><button type="button">1</button></li>
           <li><button type="button">2</button></li>
           <li><button type="button">3</button></li>
